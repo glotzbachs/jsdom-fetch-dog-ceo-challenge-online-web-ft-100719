@@ -9,16 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-    // let resourceObject = {name: "Nancy"}
-
-    // let configObject = {
-    //     method: 'POST', // or patch or delete
-    //     headers: {
-    //         //content type and accept
-    //     }, //end of delete
-    //     body: JSON.stringify(resourceObject)
-    // }
-
 function getRandomDogs() {
     const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
     fetch(imgUrl)
@@ -66,5 +56,3 @@ function renderBreed(event) {
         })
 }
 
-
-//cors.. let back end system know that front end request is ok. 
